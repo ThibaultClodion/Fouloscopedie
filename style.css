@@ -1,0 +1,109 @@
+div#bandeau {
+	text-align : center;
+	height: 90 px;
+	background-color:black;
+}
+
+div#bandeau a:visited {
+	color : white;
+}
+
+div#bandeau a {
+	color : white;
+}
+
+div#bandeau a:hover {
+	color : #808080;
+}
+
+#banner {
+	width: 100%;
+}
+
+table{
+	table-layout : fixed;
+	width : 100%;
+	border-collapse : collapse;
+	border:15px solid black;
+}
+
+td {
+	border:3px solid white;
+}
+
+#banner {
+	width : 100%;
+	}
+
+#actualite_picture {
+	width : 95%;
+	border-top : 20px solid white;
+	border-left: 20px solid white;
+	border-right : 20px solid white;
+}
+#actualite{
+	text-align : center;
+}
+
+
+footer p{
+	text-align : center;
+	position : bottom;
+	color : white;
+	background-color : black;
+	font-weight: 650;
+	border-bottom: 10px solid black;
+}
+
+* {
+	margin:0;
+	padding:0;
+}
+
+#Description h2 {
+	text-align : center;
+	background-color : black;
+	color: white;
+	border-left: 25px solid white;
+	border-right: 25px solid white;
+} /* Ceci prend que les éléments h1 dans Description */
+
+#Description p {
+	font-size: 125%;
+	border:25px solid white;
+	}
+a{
+	text-decoration:none;
+	color : #f5593d;
+}
+a:hover {
+	opacity : 75%;
+} /*Ceci change la couleur des liens sur lequel on passe le curseur*/
+
+
+footer a{
+	color: white;
+}
+
+h1{
+	text-align: center;
+	font-family: Helvetica;
+	font-weight: 750;
+}
+
+button {
+  height: 25px;
+  width: 25px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+button:hover {
+	background-color : gray;
+	opacity : 0.5;
+	color : black;
+}
+div#content {
+	font-size: 120%
+}
